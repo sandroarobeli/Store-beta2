@@ -2,18 +2,42 @@
   "name": "store-beta2",
   "version": "0.1.0",
   "private": true,
+  "description": "Next.js 13 based E-commerce online store. Styling by tailwindcss",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandroarobeli/store-beta2.git"
+  },
+  "author": "Alex Arobelidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandroarobeli/store-beta2/issues"
+  },
+  "homepage": "https://github.com/sandroarobeli/store-beta2#readme",
   "dependencies": {
+    "@headlessui/react": "^1.7.8",
+    "@heroicons/react": "^2.0.14",
     "@next/font": "13.1.6",
+    "bcryptjs": "^2.4.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "js-cookie": "^3.0.1",
+    "mongoose": "^6.9.0",
     "next": "13.1.6",
+    "next-auth": "^4.19.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.0",
+    "react-toastify": "^9.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
   }
 }
