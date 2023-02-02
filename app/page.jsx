@@ -1,7 +1,13 @@
+import { data } from "@/auxillary/data";
+import ProductItem from "@/components/ProductItem";
+
 export default function Home() {
+  const { products } = data;
   return (
-    <main className="container m-auto mt-4 px-4">
-      <h1 className="text-5xl text-cyan-700 font-orbitron">Boilerplate Code</h1>
-    </main>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
+      {products.map((product) => (
+        <ProductItem product={product} key={product.slug} />
+      ))}
+    </div>
   );
 }

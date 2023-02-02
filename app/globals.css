@@ -58,3 +58,7 @@ textarea {
 .dropdown-link {
   @apply flex justify-center p-2 hover:bg-gray-200;
 }
+
+.toast-message {
+  @apply w-[90vw] md:w-[20vw];
+}
