@@ -5,8 +5,9 @@
 /.pnp
 .pnp.js
 
-# auxillary data for seeding
+# auxillary data and api for seeding
 /auxillary
+/pages/api/seed.js
 
 # testing
 /coverage
