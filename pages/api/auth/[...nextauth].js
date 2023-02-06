@@ -3,9 +3,8 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google"; // test
 import bcrypt from "bcryptjs";
 
-// RESTORE WITH CORRECT IMPORTS!!!
-// import { connect, disconnect } from "../../../app/utils/db";
-// import User from "../../../app/models/User";
+import { connect, disconnect } from "@/lib/db/index";
+import User from "@/models/user/index";
 
 export const authOptions = {
   session: {

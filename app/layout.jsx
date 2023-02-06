@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <SessionProvider>
           <StoreProvider>
             <Header />
-            {children}
+            <main className="container m-auto mt-4 px-4">{children}</main>
             <Footer />
           </StoreProvider>
         </SessionProvider>
