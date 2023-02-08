@@ -10,7 +10,7 @@ import { getErrorMessage } from "@/lib/utils/getErrorMessage";
 import DialogModal from "@/components/DialogModal";
 import GoogleButton from "@/components/GoogleButton";
 
-export default function LoginScreen() {
+export default function Login() {
   const { data: session } = useSession(); // data: session means - renaming data into session!
   const searchParams = useSearchParams();
   const whence = searchParams.get("redirect");
